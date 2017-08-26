@@ -1,0 +1,99 @@
+/*Body Tag Style*/
+body {
+	background-color: #800000;
+}
+
+/*Container Style*/
+#container {
+	width: 50%;
+	margin: auto;
+}
+
+/*Main Division Style*/
+#header {
+	margin:auto;
+}
+#body {
+	margin:auto;
+}
+#footer {
+	background-color: #660000;
+	width: 60%;
+	height: 50px;
+	margin:auto;
+	border-radius: 40%;
+	border: 2px solid black;
+	transition: width 1s, height 1s;
+	text-align: center;
+	color: white;
+}
+#footer:hover {
+	background-color: #640000;
+	width: 60%;
+	height: 230px;
+	margin:auto;
+	border-radius: 27%;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+}
+
+/*Other Division Style*/
+#myName {
+	text-align: center;
+	font-size: 70px;
+	font-family: Impact, serif;
+	color: white;
+}
+#myPicture {
+	border: 4px solid #660000;
+	border-radius: 75%;
+	display: block;
+    margin: auto;
+}
+#description {
+	
+}
+#summary {
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+#links {
+	margin: auto;
+	width: 380px;
+	transition: width 1s;
+ 
+}
+#links:hover {
+	width: 400px;
+}
+/*#links a {
+	margin:auto;
+}*/
+.icons {
+	height: 80px;
+	width: 80px;
+	padding-right: 12px;
+	transition: width 1s, height 1s;
+}
+.icons:hover {
+	height: 100px;
+	width: 100px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+#credit-head {
+	margin-top: 10px;
+}
+.credits {
+	margin-top: 0px;
+}
