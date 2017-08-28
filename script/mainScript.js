@@ -1,12 +1,14 @@
 $(function(){
 	$("body").hide();
+	$(".about-me").hide();
+	$(".resume").hide();
 	$(".credits").hide();
 	$("body").fadeIn(1000);
 	
 	$("#footer").hover(function() {
-		$(".credits").show();
+		$(".credits").fadeIn();
 	},
 	function() {
-		$(".credits").hide();
+		$(".credits").fadeOut();
 	});
 });
