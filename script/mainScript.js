@@ -3,12 +3,12 @@ $(function(){
 	$(".about-me").hide();
 	$(".resume").hide();
 	$(".credits").hide();
-	$("body").fadeIn(1000);
+	$("body").fadeIn(1500);
 	
 	$("#footer").hover(function() {
-		$(".credits").fadeIn();
+		$(".credits").fadeIn(100);
 	},
 	function() {
-		$(".credits").fadeOut();
+		$(".credits").fadeOut(100);
 	});
 });

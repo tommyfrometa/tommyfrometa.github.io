@@ -35,27 +35,6 @@ body {
 	font-family: Impact, serif;
 	color: white;
 }
-#contact {
-	width: 500;
-	height: 100px;
-	float: right;
-}
-.label{
-	text-align: left;
-	font-family: Impact, serif;
-	color: var(--main-heading-color);
-	font-weight: bold;
-	font-size: 20px;	
-	margin: 5px;
-	margin-top: 10px;
-}
-.text {
-	text-align: left;
-	font-family: Impact, serif;
-	color: var(--main-text-color);
-	font-size: 18px;
-	margin: 5px;
-}
 
 
 /*Body Style*/
@@ -67,34 +46,9 @@ body {
 	width: 1000px;
 	margin-top: 35px;
 }
-.title {
-	width: 1000px;
-	margin-top: 15px;
-	font-size: 24px;
-	color: var(--main-heading-color);
-	font-weight: bold;
-}
-.subtitle {
-	width: 700px;
-	margin-top: 15px;
-	font-size: 20px;
-	color: var(--main-text-color);
-	font-weight: bold;
-}
-.time {
-	width: 300px;
-	height: 20px;
-	font-size: 20px;;
-	color: var(--main-text-color);
-	float: right;
-	margin-top: -45px;
-}
 .description {
 	width: 700px;
 	font-size: 20px;;
 	color: var(--main-text-color);
 	margin-top: -10px;
-}
-#summaryDescription {
-	width: 1000px;
 }
