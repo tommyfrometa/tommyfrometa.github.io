@@ -28,7 +28,7 @@ body {
 	background-color: #ff1a1a;
 	width: 60%;
 	height: 50px;
-	margin: auto;
+	margin:auto;
 	border-radius: 40%;
 	border: 2px solid var(--main-border-color);
 	transition: width 1s, height 1s;
@@ -39,7 +39,7 @@ body {
 	background-color: #cc0000;
 	width: 60%;
 	height: 200px;
-	margin: auto;
+	margin:auto;
 	border-radius: 27%;
 	border: 2px solid var(--main-border-color);
 	text-align: center;
@@ -81,7 +81,6 @@ body {
 /*#links a {
 	margin:auto;
 }*/
-
 .icons {
 	height: 80px;
 	width: 80px;
