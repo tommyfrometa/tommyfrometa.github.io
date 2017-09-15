@@ -1,15 +1,15 @@
 /*Variables*/
 :root {
-	--main-text-color: #cccccc;
-	--main-border-color: #999999;
-	--main-background-color: #800000;
-	--main-heading-color: #ff6666;
+	--main-text-color: #4d4d4d;
+	--main-border-color: #990000;
+	--main-background-color: #ffe6e6;
+	--main-heading-color: #ff1a1a;
 	--secondary-heading-color: #ff8080;
 }
 
 /*Body Tag Style*/
 body {
-	background-color: #800000;
+	background-color: var(--main-background-color);
 }
 
 /*Container Style*/
@@ -33,7 +33,7 @@ body {
 	text-align: left;
 	font-size: 50px;
 	font-family: Impact, serif;
-	color: white;
+	color: var(--main-text-color);
 }
 
 
