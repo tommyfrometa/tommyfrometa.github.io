@@ -5,6 +5,9 @@
 	--main-background-color: #ffe6e6;
 	--main-heading-color: #ff1a1a;
 	--secondary-heading-color: #ff8080;
+	--button-backgroup-color: #d9d9d9;
+	--button-hover-backgroup-color: #cccccc;
+	--button-active-backgroup-color: #bfbfbf;
 }
 
 /*Body Tag Style*/
@@ -39,6 +42,28 @@ body {
 	width: 500;
 	height: 100px;
 	float: right;
+}
+#pdf-download-button {
+	position: fixed;
+	right: 20px;
+    top: 20px;
+}
+#pdf-download-button a:link{
+	color: var(--main-heading-color);
+	font-family: Impact, serif;
+	font-weight: bold;
+	font-size: 20px;
+	
+	background-color: var(--button-backgroup-color);
+	border: 2px solid var(--main-border-color);
+	text-decoration: none;
+	
+}
+#pdf-download-button a:hover{
+	background-color: var(--button-hover-backgroup-color);
+}
+#pdf-download-button a:active{
+	background-color: var(--button-active-backgroup-color);
 }
 .label{
 	text-align: left;
@@ -84,14 +109,14 @@ body {
 .time {
 	width: 300px;
 	height: 20px;
-	font-size: 20px;;
+	font-size: 20px;
 	color: var(--main-text-color);
 	float: right;
 	margin-top: -45px;
 }
 .description {
 	width: 700px;
-	font-size: 20px;;
+	font-size: 20px;
 	color: var(--main-text-color);
 	margin-top: -10px;
 }
